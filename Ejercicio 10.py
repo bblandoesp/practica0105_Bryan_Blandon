@@ -1,0 +1,6 @@
+x = int (input("payasos enviados:"))
+y = int (input ("muñecas enviadas:"))
+payasos = 112 #(Es el peso de cada payaso)
+muñecas = 75 #(Es el peso de cada muñeca)
+z = x * payasos + y * muñecas #(Al numero de payasos se le multiplica el peso e igual con las muñecas)
+print ("Peso total del paquete:", z, "g")
