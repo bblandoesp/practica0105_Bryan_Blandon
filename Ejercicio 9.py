@@ -1,0 +1,6 @@
+x = float(input("cantidad a invertir:"))
+y = int(input("interes anual:"))
+i = (y/100)+1 #(interes anual a decimal)
+z = int(input("años:"))
+c = round (x*i**z, 2)
+print (c)
