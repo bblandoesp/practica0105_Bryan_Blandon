@@ -1,0 +1,5 @@
+n = int(input ("Numero entero 1:"))
+m = int(input ("Numero entero 2:"))
+c = (n/m)
+r = (n-m)
+print ("El cociente es:",c,"el resto es:",r)
