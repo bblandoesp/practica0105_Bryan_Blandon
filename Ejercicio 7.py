@@ -1,0 +1,5 @@
+P = float (input ("peso en kg:"))
+E = float (input ("estatura en m:"))
+C = (P/E**2)
+F = round(C,2)
+print("Tu indice de masa corparal es:",F)
