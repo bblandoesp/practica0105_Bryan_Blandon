@@ -1,0 +1,7 @@
+x = int (input ("Numero de barras vendidas:")) #(se debera ingresar el pan del dia anterior)
+pb = (3.49) #(Precio de cada barra)
+print ("precio de la barra de pan:", pb)
+print ("descuento de la barra del dia anterior es: 60%")
+y = (x*(pb*0.60)) #(Le asigne una variable a la ganancia total)
+y = round (y, 2)
+print ("Ganancia total:", y)
